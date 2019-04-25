@@ -1,5 +1,5 @@
-function Home() {
+const Home = () => {
   return <div>Welcome to Next.js!</div>
-}
+};
 
-export default Home
+export default Home;
