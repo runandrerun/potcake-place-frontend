@@ -1,5 +1,12 @@
+import Navigation from '../components/Navigation';
+
 const Home = () => {
-  return <div>Welcome to Next.js!</div>
+  return (
+    <>
+      <Navigation />
+      <div>Welcome to Next.js!</div>
+    </>
+  )
 };
 
 export default Home;
