@@ -1,7 +1,7 @@
 import React, { Component } from 'React';
 import ReactDOM from 'react-dom';
 import { Menu, Icon } from 'antd';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
