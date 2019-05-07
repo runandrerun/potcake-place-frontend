@@ -1,16 +1,4 @@
-// import Navigation from '../components/Navigation';
-
-// const Home = () => {
-//   return (
-//     <>
-//       <div>Welcome to Next.js!</div>
-//     </>
-//   )
-// };
-//
-// export default Home;
-
-import React from 'react'
+import React from 'react';
 import Layout from '../layouts/Main.js';
 // import { Link } from 'routes'
 

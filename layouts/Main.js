@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Wrapper from './Wrapper.js';
-import Nav from '../components/Nav.js';
+// import Nav from '../components/Nav.js';
+import Navigation from '../components/Navigation.js';
 import Footer from '../components/Footer.js';
 
 export default ({ children, title = 'Potcake Place' }) => (
@@ -9,7 +10,8 @@ export default ({ children, title = 'Potcake Place' }) => (
       <title>{ title }</title>
     </Head>
     <header>
-      <Nav />
+      <Navigation />
+      {/*<Nav />*/}
     </header>
 
     <main>

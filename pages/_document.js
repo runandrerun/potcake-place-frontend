@@ -1,6 +1,8 @@
 import Document, { Head, Main, NextScript } from 'next/document'
+import { LocaleProvider } from 'antd';
+import enUS from 'antd/lib/locale-provider/en_US'
 import { ServerStyleSheet } from 'styled-components'
-import 'styles/global-styles'
+// import 'styles/global-styles'
 
 export default class SiteDocument extends Document {
   render () {
@@ -14,6 +16,7 @@ export default class SiteDocument extends Document {
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css' />
           <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.4/tachyons.min.css' />
+          <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/antd/3.2.0/antd.min.css' />
           {styleTags}
         </Head>
         <body>

@@ -1,7 +1,6 @@
-import React, { Component } from 'React';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Menu, Icon } from 'antd';
-// import 'antd/dist/antd.css';
 
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
@@ -26,12 +25,12 @@ export default class Navigation extends Component {
         mode="horizontal"
       >
         <Menu.Item key="mail">
-          <Icon type="mail" />Navigation One
+          Home
         </Menu.Item>
-        <Menu.Item key="app" disabled>
-          <Icon type="appstore" />Navigation Two
+        <Menu.Item key="app">
+          <a href="/contact">About Potcake Place</a>
         </Menu.Item>
-        <SubMenu title={<span className="submenu-title-wrapper"><Icon type="setting" />Navigation Three - Submenu</span>}>
+        <SubMenu title={<span className="submenu-title-wrapper">Contact</span>}>
           <MenuItemGroup title="Item 1">
             <Menu.Item key="setting:1">Option 1</Menu.Item>
             <Menu.Item key="setting:2">Option 2</Menu.Item>
